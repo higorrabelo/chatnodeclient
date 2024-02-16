@@ -1,0 +1,69 @@
+<nav class="navbar is-expanded is-dark" role="navigation" aria-label="main navigation">
+    
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link is-arrowless">
+              Arquivo
+            </a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                Nova Sala
+              </a>
+              <a class="navbar-item">
+                Cadastrar
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item" onclick="quit()">
+                Sair
+              </a>
+            </div>
+          </div>
+  
+        <a class="navbar-item">
+          Editar
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link is-arrowless">
+            Ajuda
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              Sobre
+            </a>
+            <a class="navbar-item">
+              GitHub
+            </a>
+            <a class="navbar-item">
+              Contato
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Reporte Bugs
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+           
+            <div class="navbar-brand" id="mover">
+                <a class="navbar-item" href="https://bulma.io">
+                  CHATClient
+                </a>
+              </div>
+              <input type="button" class="button is-success" value="+" onclick="maximize()">
+              <input type="button" class="button is-warning" value="-" onclick="minimize()">
+              <input type="button" class="button is-danger" value="X" onclick="quit()">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>

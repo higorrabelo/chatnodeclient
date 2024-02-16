@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#mover{
+  -webkit-app-region:drag;
+}
+
+.barra{
+    height: 40px;
+    width: 100%;
+    background-color: aquamarine;
+}
+body::-webkit-scrollbar {
+  display: none;
+  width: 12px;               /* width of the entire scrollbar */
+}
+#papo{
+  height: 500px;
+  box-shadow: rgba(0,0,0,0.38);
+}
+
+#mensagem{
+  margin-top: 10px;
+}
+
+#btnEnviar{
+  text-align: end;
+}
